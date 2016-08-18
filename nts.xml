@@ -142,7 +142,7 @@
         MUST implement <xref target="RFC7507"/>.
       </t>
       <t>
-        DTLS clients MUST NOT offer, and DTLS servers MUST not select,
+        DTLS clients MUST NOT offer, and DTLS servers MUST NOT select,
         RC4 cipher suites. <xref target="RFC7465"/>
       </t>
       <t>
@@ -537,7 +537,7 @@
             Protocol, in decreasing preference order. When included in
             a response, this record denotes which algorithm the server
             chooses to use, or is empty if the server supports none of
-            the algorithms offered.. In requests, the list MUST
+            the algorithms offered. In requests, the list MUST
             include at least one algorithm. In responses, it MUST
             include at most one. Honoring the client's preference
             order is OPTIONAL: servers may select among any of the
